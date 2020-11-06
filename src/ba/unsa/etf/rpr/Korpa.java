@@ -39,4 +39,8 @@ public class Korpa {
         }
         return  sumaCijena;
     }
+
+    public int getDinamicSize() {
+        return dinamicSize;
+    }
 }

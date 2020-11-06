@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0faac104-bf3c-493a-a48d-d9e8bf3fecd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
@@ -10,6 +14,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,12 +31,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ba.unsa.etf.rpr" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArtiklTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -50,8 +75,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArtiklTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.ArtiklTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArtiklTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -65,6 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603963391067</updated>
       <workItem from="1603963393432" duration="8241000" />
+      <workItem from="1604056003381" duration="689000" />
+      <workItem from="1604658833315" duration="3779000" />
     </task>
     <servers />
   </component>
@@ -72,22 +115,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom" timestamp="1603976373822">
+    <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1604663507520">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603976373822" />
-    <state width="1323" height="167" key="GridCell.Tab.0.center" timestamp="1603976373822">
+    <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1604663507520" />
+    <state width="1306" height="166" key="GridCell.Tab.0.bottom" timestamp="1604662159163">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1603976373822" />
-    <state width="1323" height="167" key="GridCell.Tab.0.left" timestamp="1603976373822">
+    <state width="1306" height="166" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604662159163" />
+    <state width="1306" height="166" key="GridCell.Tab.0.center" timestamp="1604662159163">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1603976373822" />
-    <state width="1323" height="167" key="GridCell.Tab.0.right" timestamp="1603976373822">
+    <state width="1306" height="166" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604662159163" />
+    <state width="1306" height="166" key="GridCell.Tab.0.left" timestamp="1604662159163">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="167" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1603976373822" />
+    <state width="1306" height="166" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604662159163" />
+    <state width="1306" height="166" key="GridCell.Tab.0.right" timestamp="1604662159163">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1306" height="166" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604662159163" />
     <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1603975463143">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -104,6 +151,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1603975463143" />
+    <state x="387" y="275" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604659086153">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="387" y="275" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.768@0.0.1366.768" timestamp="1604659086153" />
+    <state x="502" y="139" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604662470842">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="502" y="139" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.768@0.0.1366.768" timestamp="1604662470842" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

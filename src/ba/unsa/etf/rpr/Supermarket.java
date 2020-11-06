@@ -14,6 +14,10 @@ public class Supermarket {
         //else throw new Exception("Prekoracili ste broj dozvoljenih mjesta!");
     }
 
+    public int getDinamicSize() {
+        return dinamicSize;
+    }
+
     public Artikl[] getArtikli() {
         return  artikli;
     }
